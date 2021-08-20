@@ -1,11 +1,14 @@
+import React, { useState } from 'react';
 import './ExpenseItem.css';
 import ExpenseDate from './ExpenseDate';
 import Card from '../UI/Card';
 
 const ExpenseItem = (props) => {
-    let title = props.title;
+     // react hook, starts with use
+    const [title, setTitle] = useState(props.title);
+
     const changeTitle = () => {
-        title = 'up';
+        setTitle('updated');
     }
     return (
         <Card className='expense-item'>
