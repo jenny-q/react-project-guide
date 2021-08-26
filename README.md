@@ -1,3 +1,8 @@
+# Expenses App
+I created a expenses tracker using react where the user can add an expense item, and a chart will show a 12 month overview of all expenses. The user can filter by year.
+
+![screenshot of project](project.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
